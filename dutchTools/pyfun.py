@@ -1,5 +1,5 @@
-rf = open('dutchWordList.txt','r')
-w = open('formattedWL.txt','w')
+rf = open('SUBTLEX-NL.txt','r')
+w = open('top100.txt','w')
 
 nl = rf.readline()
 i = 0
