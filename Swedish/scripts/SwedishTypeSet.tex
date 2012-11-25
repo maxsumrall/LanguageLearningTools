@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{setspace}
+\usepackage{graphicx}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{array} 
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\Hrule}{\rule{\linewidth}{0.3mm}}
+
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \parindent=0pt% don't indent paragraphs in the title block
+  \centering
+  {\Large \bfseries\textsc{\@title}}
+  \HRule\par%
+  \textit{\@author \hfill \@date}
+  \par
+}
+\makeatother% resets the meaning of the at-sign (@)
+\title{50 Most Common Swedish Words}
+\author{ }
+\date{ }
+\begin{document}
+  \maketitle% prints the title block
+\doublespace
+\scalebox{1.1}{
+\begin{tabular}{ >{\centering\arraybackslash}m{2.6in}  >{\centering\arraybackslash}m{2.6in} }
+I$_{in}$ & OCH$_{and}$\\ 
+ATT$_{to}$ & DET$_{it}$\\ 
+SOM$_{as}$ & EN$_{one}$\\ 
+P\r{A}$_{on}$ & \"{A}R$_{is}$\\ 
+AV$_{of}$ & F\"{O}R$_{for}$\\ 
+MED$_{with}$ & TILL$_{to}$\\ 
+DEN$_{it}$ & HAR$_{have}$\\ 
+DE$_{they}$ & INTE$_{not}$\\ 
+OM$_{about}$ & ETT$_{one}$\\ 
+HAN$_{he}$ & MEN$_{but}$\\ 
+VAR$_{was}$ & JAG$_{I}$\\ 
+SIG$_{to}$ & FR\r{A}N$_{from}$\\ 
+VI$_{we}$ & S\r{A}$_{so}$\\ 
+KAN$_{can}$ & MAN$_{husband}$\\ 
+N\"{A}R$_{when}$ & \r{A}R$_{year}$\\ 
+S\"{A}GER$_{says}$ & HON$_{she}$\\ 
+UNDER$_{under}$ & OCKS\r{A}$_{also}$\\ 
+EFTER$_{after}$ & ELLER$_{or}$\\ 
+NU$_{now}$ & SIN$_{his}$\\ 
+D\"{A}R$_{where}$ & VID$_{at}$\\ 
+MOT$_{against}$ & SKA$_{be}$\\ 
+SKULLE$_{would}$ & KOMMER$_{will}$\\ 
+UT$_{out}$ & F\r{A}R$_{get}$\\ 
+FINNS$_{there}$ & VARA$_{be}$\\ 
+HADE$_{had}$ & ALLA$_{all}$\\ 
+\end{tabular}
+}
+\end{document}
